@@ -21,6 +21,11 @@
       <version>${javafx.version}</version>
     </dependency>
   </dependencies>
+   <scm> 
+    <connection>git@github.com:109607/maven-release-plugin-example.git</connection>
+    <url>git@github.com:109607/maven-release-plugin-example.git</url>
+    <tag>HEAD</tag>
+ </scm>
   
   <build>
     <plugins>
