@@ -44,18 +44,6 @@
             <url>https://repo.spring.io/milestone</url>
         </repository>
     </repositories>
-    <distributionManagement>
-      <repository>
-        <id>gfm_release</id>
-        <!-- CHANGE HERE by your team nexus server -->
-        <url>http://192.168.1.11:8081/repository/gfm_release/</url>
-      </repository>
-      <snapshotRepository>
-        <id>gfm_snapshot</id>
-        <!-- CHANGE HERE by your team nexus server -->
-        <url>http://192.168.1.11:8081/repository/gfm_snapshot/</url>
-      </snapshotRepository>
-    </distributionManagement>
     <pluginRepositories>
         <pluginRepository>
             <id>spring-snapshots</id>

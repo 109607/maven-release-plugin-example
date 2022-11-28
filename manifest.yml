@@ -1,0 +1,7 @@
+applications:
+- name: gfm_utility
+  path: gfm_utility-backend/target/gfm_utility-backend-1.0-SNAPSHOT.jar
+  memory: 256m
+  env:
+    JAVA_OPTS: '-XX:ReservedCodeCacheSize=32M -XX:MaxDirectMemorySize=32M'
+    JBP_CONFIG_OPEN_JDK_JRE: '[memory_calculator: {stack_threads: 30}]'
