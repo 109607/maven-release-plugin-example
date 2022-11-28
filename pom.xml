@@ -29,6 +29,13 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+    
+    <scm>
+        <connection>git@github.com:109607/maven-release-plugin-example.git</connection>
+        <developerConnection>git@github.com:109607/maven-release-plugin-example.git</developerConnection>
+        <tag>HEAD</tag>
+        <url>http://127.0.0.1/websvn/my-project</url>
+    </scm>
 
     <repositories>
         <repository>
