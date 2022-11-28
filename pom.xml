@@ -8,7 +8,6 @@
     <developerConnection>git@github.com:109607/maven-release-plugin-example.git</developerConnection>
     <tag>HEAD</tag>
     </scm>
-	
 	<!-- Repository Information -->
 	<distributionManagement>
 		<repository>
@@ -16,7 +15,7 @@
 			<!-- http://localhost:8081/repository/<repository-name> -->
 			<url>http://192.168.1.11:8081/repository/gfm_snapshot/</url>
 		</repository>
-   <repository>
+ 	        <repository>
 			<id>gfm_release</id>
 			<!-- http://localhost:8081/repository/<repository-name> -->
 			<url>http://192.168.1.11:8081/repository/gfm_release/</url>
