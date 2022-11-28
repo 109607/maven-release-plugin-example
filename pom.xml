@@ -32,16 +32,16 @@
 
     <repositories>
         <repository>
-            <id>gfm_snapshot</id>
-            <name>gfm_snapshot</name>
-            <url>http://192.168.1.11:8081/repository/gfm_snapshot/</url>
+            <id>spring-snapshots</id>
+            <name>Spring Snapshots</name>
+            <url>https://repo.spring.io/snapshot</url>
             <snapshots>
             </snapshots>
         </repository>
         <repository>
-            <id>gfm_release</id>
-            <name>gfm_release</name>
-            <url>http://192.168.1.11:8081/repository/gfm_release/</url>
+            <id>spring-milestones</id>
+            <name>Spring Milestones</name>
+            <url>https://repo.spring.io/milestone</url>
         </repository>
     </repositories>
     <pluginRepositories>
